@@ -140,23 +140,23 @@ nav li:nth-of-type(5) {
   }
 }
 
-.homePage {
+.slide-out-1 {
   animation: slide-out 0.3s linear 0.5s both;
 }
 
-.aboutPage {
+.slide-out-2 {
   animation: slide-out 0.3s linear 0.4s both;
 }
 
-.skillsPage {
+.slide-out-3 {
   animation: slide-out 0.3s linear 0.3s both;
 }
 
-.projectsPage {
+.slide-out-4 {
   animation: slide-out 0.3s linear 0.2s both;
 }
 
-.contactPage {
+.slide-out-5 {
   animation: slide-out 0.3s linear 0.1s both;
 }
 
@@ -170,6 +170,7 @@ nav li:nth-of-type(5) {
   }
 }
 
+/* --- Menu Bars ------------------------------------ */
 
 .menu-bars {
   position: fixed;
@@ -215,13 +216,13 @@ section {
   color: var(--primaryColor);
 }
 
-section#homeSection {
+section#home {
   background-image: url("https://images.unsplash.com/photo-1581453904507-626ddb717f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
   background-size: cover;
   background-position: center center;
 }
 
-section#aboutSection a {
+section#home a {
   position: absolute;
   z-index: 2;
   top: 1.5rem;
@@ -233,24 +234,24 @@ section#aboutSection a {
   border-bottom: 1px solid var(--primaryColor);
 }
 
-section#aboutSection {
+section#about {
   background-color: var(--navColor2);
 }
 
-section#skillsSection {
+section#skills {
   background-color: var(--navColor3);
 }
 
-section#projectsSection {
+section#projects {
   background-color: var(--navColor4);
 }
 
-section#contactSection {
+section#contact {
   background-color: var(--navColor5);
 }
 
 @media (max-width: 600px) {
-  section#homeSection a {
+  section#home a {
     top: 1rem;
     left: 1rem;
   }
